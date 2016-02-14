@@ -1,4 +1,4 @@
-gamminc
+gammincinv
 ===
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
@@ -7,7 +7,7 @@ gamminc
 Computes the inverse of the lower [incomplete gamma function][incomplete-gamma-function]
 
 <div class="equation" align="center" data-raw-text="P( x, a ) = \frac{\gamma(a,x)}{\Gamma(a)} = \frac{1}{\Gamma(a)} \int_0^x t^{a-1} e^{-t} \; dt" data-equation="eq:lower_incomplete_gamma">
-	<img src="" alt="Equation for the regularized lower incomplete gamma function.">
+	<img src="https://cdn.rawgit.com/math-io/gammaincinv/ac44a1c4f7f939036d3d13ee8b046e4013c007e8/docs/img/eqn1.svg" alt="Equation for the regularized lower incomplete gamma function.">
 	<br>
 </div>
 
@@ -16,7 +16,7 @@ Specifically, for given `p` and `a` it finds the `x` such that `p =  P(x, a)`.
 The function can also be used to invert the upper incomplete gamma function, which is defined as follows:  
 
 <div class="equation" align="center" data-raw-text="Q( x, a ) = \frac{\Gamma(a,x)}{\Gamma(a)} = \frac{1}{\Gamma(a)} \int_x^\infty t^{a-1} e^{-t} \; dt" data-equation="eq:upper_incomplete_gamma">
-	<img src="" alt="Equation for the regularized upper incomplete gamma function.">
+	<img src="https://cdn.rawgit.com/math-io/gammaincinv/ac44a1c4f7f939036d3d13ee8b046e4013c007e8/docs/img/eqn2.svg" alt="Equation for the regularized upper incomplete gamma function.">
 	<br>
 </div>
 
